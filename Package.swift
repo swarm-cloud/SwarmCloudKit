@@ -14,7 +14,7 @@ let package = Package(
             targets: ["SwarmCloudKit", "datachannel_wrapper"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON", from:"5.0.1"),
+        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from:"5.0.1"),
     ],
     targets: [
         .binaryTarget(
