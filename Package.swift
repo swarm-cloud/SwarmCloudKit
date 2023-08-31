@@ -20,7 +20,7 @@ let package = Package(
         .binaryTarget(
             name: "SwarmCloudKit",
 //             path: "./SwarmCloudKit.xcframework",
-            url: "https://github.com/swarm-cloud/SwarmCloudKit/releases/download/3.0.0/SwarmCloudKit.xcframework.zip",
+            url: "https://github.com/swarm-cloud/SwarmCloudKit/releases/download/xcframework-3.0.0/SwarmCloudKit.xcframework.zip",
             checksum: "5f1aa96dcb4ea1c99f04c52d61fc8f42a6b0799cc215055541a7b292db5e2243"
             ),
         .binaryTarget(
