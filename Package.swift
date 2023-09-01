@@ -11,10 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "SwarmCloudKit",
-            targets: ["SwarmCloudKit", "datachannel_wrapper", .product(name: "SwiftyJSON", package: "SwiftyJSON")]),
-    ],
-    dependencies: [
-        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from:"5.0.1")
+            targets: ["SwarmCloudKit", "datachannel_wrapper"]),
     ],
     targets: [
         .binaryTarget(
