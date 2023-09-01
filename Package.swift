@@ -17,13 +17,13 @@ let package = Package(
         .binaryTarget(
             name: "SwarmCloudKit",
 //             path: "./SwarmCloudKit.xcframework",
-            url: "https://github.com/swarm-cloud/SwarmCloudKit/releases/download/xcframework-3.0.0/SwarmCloudKit.xcframework.zip",
+            url: "https://cdn.swarmcloud.net/apple/v3.0.0/SwarmCloudKit.xcframework.zip",
             checksum: "5f1aa96dcb4ea1c99f04c52d61fc8f42a6b0799cc215055541a7b292db5e2243"
             ),
         .binaryTarget(
             name: "datachannel_wrapper",
 //             path: "./datachannel_wrapper.xcframework",
-            url: "https://github.com/swarm-cloud/datachannel-native/releases/download/apple-1.0.8/datachannel_wrapper.xcframework.zip",
+            url: "https://cdn.swarmcloud.net/apple/datachannel_wrapper.xcframework.zip",
             checksum: "e891db14503689c873c8f666d501acea0d8a8fea18a4088975f4c77e3198d01b"
             )
     ],
