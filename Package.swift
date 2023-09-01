@@ -21,8 +21,8 @@ let package = Package(
         .target(
             name: "SwarmCloudKitWrapper",
             dependencies: [
-                .target(name: "SwarmCloudKit"),
-                .target(name: "datachannel_wrapper"),
+                "SwarmCloudKit",
+                "datachannel_wrapper",
                 .product(name: "SwiftyJSON", package: "SwiftyJSON")
             ]
         ),
