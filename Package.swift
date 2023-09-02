@@ -37,8 +37,8 @@ let package = Package(
         .binaryTarget(
             name: "datachannel_wrapper",
 //             path: "./datachannel_wrapper.xcframework"
-            url: "https://cdn.swarmcloud.net/apple/datachannel_wrapper.xcframework.zip",
-            checksum: "e891db14503689c873c8f666d501acea0d8a8fea18a4088975f4c77e3198d01b"
+            url: "https://cdn.swarmcloud.net/apple/libDC/v1.0.8/datachannel_wrapper.xcframework.zip",
+            checksum: "210cd0e7a34082629b7335f685ab4c3848c0732d655b200273c1287843373921"
         )
     ],
     swiftLanguageVersions: [.v5]
