@@ -5,7 +5,6 @@ Pod::Spec.new do |s|
   s.summary = 'P2P Streaming Engine for iOS, tvOS and macOS.'
   s.homepage = 'https://www.cdnbye.com/en/'
   s.authors = { 'SwarmCloud' => 'cdnbye@gmail.com' }
-  s.source = { :git => 'https://github.com/swarm-cloud/SwarmCloudKit.git', :tag => s.version }
   s.documentation_url = 'https://www.cdnbye.com/en/views/ios/v3/usage.html'
 
   s.ios.deployment_target = '13.0'
@@ -18,8 +17,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'SwiftyJSON', '~> 5.0'
 
-  s.ios.vendored_frameworks = 'SwarmCloudKit/SwarmCloudKit.xcframework', 'SwarmCloudKit/datachannel_wrapper.xcframework'
-  s.osx.vendored_frameworks = 'SwarmCloudKit/SwarmCloudKit.xcframework', 'SwarmCloudKit/datachannel_wrapper.xcframework'
-  s.tvos.vendored_frameworks = 'SwarmCloudKit/SwarmCloudKit.xcframework', 'SwarmCloudKit/datachannel_wrapper.xcframework'
+  s.vendored_frameworks = 'SwarmCloudKit/SwarmCloudKit.xcframework', 'SwarmCloudKit/datachannel_wrapper.xcframework'
 
 end
