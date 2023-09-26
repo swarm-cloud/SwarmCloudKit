@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'SwiftyJSON', '~> 5.0'
 
-  s.vendored_frameworks = 'SwarmCloudKit.xcframework', 'datachannel_wrapper.xcframework'
+  s.vendored_frameworks = 'SwarmCloudKit.xcframework'
+  s.vendored_frameworks = 'datachannel_wrapper.xcframework'
 
 end
