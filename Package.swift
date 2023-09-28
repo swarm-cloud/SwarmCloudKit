@@ -14,25 +14,20 @@ let package = Package(
             targets: ["SwarmCloudKitWrapper"]
         )
     ],
-    dependencies: [
-        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from:"5.0.1")
-    ],
     targets: [
         .target(
             name: "SwarmCloudKitWrapper",
             dependencies: [
                 .target(name: "SwarmCloudKit"),
-                .target(name: "datachannel_wrapper"),
-                .product(name: "SwiftyJSON", package: "SwiftyJSON")
+                .target(name: "datachannel_wrapper")
             ],
             path: "SwarmCloudKitWrapper"
         ),
         .binaryTarget(
             name: "SwarmCloudKit",
 //             path: "./SwarmCloudKit.xcframework"
-            url: "https://web3lab.b-cdn.net/apple/v3.0.3/SwarmCloudKit.xcframework.zip",
-            checksum: "54d681dd97bcfe8753d22d507f88156fb053685952a88c6af7bcfe636477b262"
-            
+            url: "https://web3lab.b-cdn.net/apple/v3.1.0/SwarmCloudKit.xcframework.zip",
+            checksum: "232555f3c5228f74c6d6f03022910cec8d211003d7a62139f52363c3e18f2d31"
         ),
         .binaryTarget(
             name: "datachannel_wrapper",
