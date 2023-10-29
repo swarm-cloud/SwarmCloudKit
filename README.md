@@ -4,7 +4,7 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ## Document
-See [document](https://www.cdnbye.com/en/views/ios/v3/usage.html)
+See [document](https://docs.swarmcloud.net/ios)
 
 ## Requirements
 - iOS 13.0+
