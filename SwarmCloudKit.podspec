@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'SwarmCloudKit'
-    s.version = '3.2.1'
+    s.version = '3.2.2'
     s.license = { :type => 'Commercial', :file => 'SwarmCloudKit/LICENSE.md' }
     s.summary = 'P2P Streaming Engine for iOS, tvOS and macOS.'
     s.homepage = 'https://www.swarmcloud.net/'
@@ -13,10 +13,8 @@ Pod::Spec.new do |s|
 
     s.swift_versions = ['5']
 
-    s.source        = { :http => "https://web3lab.b-cdn.net/apple/3.2.1/SwarmCloudKit.zip" }
+    s.source        = { :http => "https://web3lab.b-cdn.net/apple/3.2.2/SwarmCloudKit.zip" }
 
-    s.dependency 'datachannel-iOS', '= 1.0.211'
-
-    s.vendored_frameworks = 'SwarmCloudKit/SwarmCloudKit.xcframework'
+    s.vendored_frameworks = 'SwarmCloudKit/SwarmCloudKit.xcframework', 'SwarmCloudKit/datachannel_wrapper.xcframework'
 
 end
