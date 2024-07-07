@@ -26,8 +26,8 @@ let package = Package(
         .binaryTarget(
             name: "SwarmCloudKit",
 //             path: "./SwarmCloudKit.xcframework"
-            url: "https://web3lab.b-cdn.net/apple/3.2.0/SwarmCloudKit.xcframework.zip",
-            checksum: "30ecedc6c432a876195a3064569964ba2c6df488496ce2c2c0e3220025943433"
+            url: "https://web3lab.b-cdn.net/apple/3.2.1/SwarmCloudKit.zip",
+            checksum: "42e2953fa52fe8c5273d2bf3cc2a70ce9342776a3c385e08136dd4bd087712a6"
         ),
         .binaryTarget(
             name: "datachannel_wrapper",
