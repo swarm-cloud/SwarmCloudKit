@@ -26,14 +26,14 @@ let package = Package(
         .binaryTarget(
             name: "SwarmCloudKit",
 //             path: "./SwarmCloudKit.xcframework"
-            url: "https://web3lab.b-cdn.net/apple/3.2.1/SwarmCloudKit.zip",
-            checksum: "42e2953fa52fe8c5273d2bf3cc2a70ce9342776a3c385e08136dd4bd087712a6"
+            url: "https://web3lab.b-cdn.net/apple/3.2.3/SwarmCloudKit.xcframework.zip",
+            checksum: "203c820dedc48bb0c7b809cd0329ca2e7d018c24685f2b0b59aecdae468faf5f"
         ),
         .binaryTarget(
             name: "datachannel_wrapper",
 //             path: "./datachannel_wrapper.xcframework"
-            url: "https://web3lab.b-cdn.net/apple/libDC/1.0.211/datachannel_wrapper.xcframework.zip",
-            checksum: "c7cbc55433b453eb6bc384cfda9e68adcd6e01884525c5a58f4567a415d44e06"
+            url: "https://web3lab.b-cdn.net/apple/libDC/1.0.2113/datachannel_wrapper.xcframework.zip",
+            checksum: "f5f26fe10c9d13beb3c34271f43f324c86794dde9fedf92b9319a3202c7696e8"
         )
     ],
     swiftLanguageVersions: [.v5]
